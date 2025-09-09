@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Hadi Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div id="welcome-message" style="text-align:center; color:#90caf9; font-size:1.3rem; margin-top:1.5em;"></div>
+  <div class="galaxy-stars">
+    <div class="star-twinkle s1"></div>
+    <div class="star-twinkle s2"></div>
+    <div class="star-twinkle s3"></div>
+    <div class="star-twinkle s4"></div>
+    <div class="star-twinkle s5"></div>
+    <div class="star-twinkle s6"></div>
+    <div class="star-twinkle s7"></div>
+    <div class="star-twinkle s8"></div>
+    <div class="star-twinkle s9"></div>
+    <div class="star-twinkle s10"></div>
+    <div class="star-twinkle s11"></div>
+    <div class="star-twinkle s12"></div>
+    <div class="star-twinkle s13"></div>
+    <div class="star-twinkle s14"></div>
+    <div class="star-twinkle s15"></div>
+  </div>
+  <div class="starburst-bg"></div>
+  <div class="arrow-anim-bg">
+    <div class="arrow-anim"></div>
+  </div>
+  <div class="camera-recording-bg">
+    <div class="camera-recording-frame"></div>
+    <div class="camera-recording-icon">
+      <i class="fas fa-video"></i>
+      <span class="rec-dot"></span>
+      <span class="rec-label">REC</span>
+      <span id="opening-username" style="display:block; color:#90caf9; font-size:1.1em; margin-top:0.5em;"></span>
+    </div>
+  </div>
+  <header>
+    <h1 id="main-heading">Mohamed Hadi</h1>
+    <p>Videographer & Editor</p>
+    <div id="clock-date" class="fixed-clock"></div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" id="show-contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="dashboard-horizontal">
+      <div class="dashboard-horizontal-row">
+        <div class="dashboard-icon-item">
+          <i class="fas fa-address-book"></i>
+          <span>Contact</span>
+        </div>
+        <div class="dashboard-icon-item">
+          <i class="fas fa-star"></i>
+          <span>Skills</span>
+        </div>
+        <div class="dashboard-icon-item">
+          <i class="fas fa-user"></i>
+          <span>My Story</span>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="about-italian">Hello! I'm Mohamed Hadi, a 16-year-old student and professional editor passionate about videography and creative storytelling.</p>
+      <p class="about-italian">As a dedicated student, I balance my academic pursuits with my passion for video editing and content creation. I have developed strong skills in both shooting and editing videos, working on a variety of projects from short films to event coverage. My journey in videography started at a young age, and I have honed my craft through continuous learning and hands-on experience.</p>
+      <p class="about-italian">As a professional editor, I specialize in creating engaging content that tells compelling stories. I am proficient with industry-standard editing software and have a keen eye for detail, pacing, and visual composition. My work reflects my commitment to quality and my understanding of modern content creation trends.</p>
+      <p class="about-italian">In addition to my technical skills, I am detail-oriented, creative, and always eager to learn new techniques to improve my craft. I believe in the power of visual storytelling and strive to bring unique perspectives to every project I work on.</p>
+    </section>
+    <section id="cinematography-theme">
+      <h2>Cinematography Theme</h2>
+      <p>Inspired by the art of visual storytelling, I use cinematic techniques to create immersive and impactful videos. My approach focuses on lighting, composition, and movement to evoke emotion and bring stories to life.</p>
+    </section>
+    <section id="editor-theme">
+      <h2>Editor Theme</h2>
+      <p>As an editor, I believe in the power of pacing, rhythm, and creative transitions. My editing style enhances the narrative, ensuring each project is engaging and visually compelling.</p>
+    </section>
+    <section id="skills">
+      <h2><i class="fas fa-star"></i> Skills</h2>
+      <div class="skills-icons-grid">
+        <div class="skill-icon-item">
+          <i class="fas fa-video"></i>
+          <span>Videography</span>
+        </div>
+        <div class="skill-icon-item">
+          <i class="fas fa-scissors"></i>
+          <span>Editing</span>
+        </div>
+        <div class="skill-icon-item">
+          <i class="fas fa-microphone"></i>
+          <span>Singing</span>
+        </div>
+      </div>
+      <div class="wavy-icon">
+        <i class="fas fa-water"></i>
+      </div>
+    </section>
+    <section id="contact">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <p><i class="fas fa-paper-plane"></i> Email: <a href="mailto:mhadiofficial11@gmail.com">mhadiofficial11@gmail.com</a></p>
+      <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/hadii_nzzl_/" target="_blank">@hadii_nzzl_</a></p>
+      <div class="wavy-icon">
+        <i class="fas fa-water"></i>
+      </div>
+      <p style="text-align:center; font-style:italic; color:#90caf9; margin-top:1.2em;">It is your duty to make your bloodline mean something</p>
+      <div id="comment-section" style="margin-top:2em;">
+        <h3 style="text-align:center; color:#90caf9;">Send me a message</h3>
+        <form id="contact-form" action="https://formspree.io/f/xqadejww" method="POST" style="max-width:400px; margin:0 auto; display:flex; flex-direction:column; gap:0.8em;">
+          <input type="text" id="contact-name" name="name" placeholder="Your Name" required style="padding:0.6em; border-radius:6px; border:1px solid #222; background:#181828; color:#fff;">
+          <input type="email" id="contact-email" name="email" placeholder="Your Email" required style="padding:0.6em; border-radius:6px; border:1px solid #222; background:#181828; color:#fff;">
+          <textarea id="contact-message" name="message" placeholder="Your Message" rows="4" required style="padding:0.6em; border-radius:6px; border:1px solid #222; background:#181828; color:#fff;"></textarea>
+          <input type="hidden" name="_subject" value="New message from portfolio contact form">
+          <input type="text" name="_gotcha" style="display:none">
+          <button type="submit" style="background:#1976d2; color:#fff; border:none; border-radius:6px; padding:0.7em; font-weight:600; cursor:pointer;">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Mohamed Hadi</p>
+  </footer>
+  <script src="script.js"></script>
+  
+</body>
+</html> 
